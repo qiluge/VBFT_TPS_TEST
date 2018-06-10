@@ -1,0 +1,60 @@
+2018/06/10 09:47:29.709882 [0;31m[ERROR][m GID 80, connect failed:  dial tcp 10.0.0.50:20338: getsockopt: connection refused
+2018/06/10 09:47:29.709892 [0;31m[ERROR][m GID 81, connect failed:  dial tcp 10.0.0.53:20338: getsockopt: connection refused
+2018/06/10 09:47:29.709897 [0;31m[ERROR][m GID 79, connect failed:  dial tcp 10.0.0.55:20338: getsockopt: connection refused
+2018/06/10 09:47:29.710604 [0;31m[ERROR][m GID 82, connect failed:  dial tcp 10.0.0.52:20338: getsockopt: connection refused
+2018/06/10 09:47:29.710614 [0;31m[ERROR][m GID 83, connect failed:  dial tcp 10.0.0.56:20338: getsockopt: connection refused
+2018/06/10 09:48:00.512713 [0;33m[WARN ][m GID 43344, vbft actor receives block complete event. block height=1, numtx=4321
+2018/06/10 09:48:02.919650 [0;33m[WARN ][m GID 109784, vbft actor receives block complete event. block height=2, numtx=9703
+2018/06/10 09:48:05.878377 [0;33m[WARN ][m GID 150061, vbft actor receives block complete event. block height=3, numtx=14400
+2018/06/10 09:48:08.561392 [0;33m[WARN ][m GID 225028, vbft actor receives block complete event. block height=4, numtx=10055
+2018/06/10 09:48:11.650838 [0;33m[WARN ][m GID 304143, vbft actor receives block complete event. block height=5, numtx=14861
+2018/06/10 09:48:15.181540 [0;33m[WARN ][m GID 399472, vbft actor receives block complete event. block height=6, numtx=18831
+2018/06/10 09:48:19.496678 [0;33m[WARN ][m GID 511089, vbft actor receives block complete event. block height=7, numtx=22257
+2018/06/10 09:48:24.159543 [0;33m[WARN ][m GID 636995, vbft actor receives block complete event. block height=8, numtx=25690
+2018/06/10 09:48:29.402181 [0;33m[WARN ][m GID 770020, vbft actor receives block complete event. block height=9, numtx=27259
+2018/06/10 09:48:34.776556 [0;33m[WARN ][m GID 899697, vbft actor receives block complete event. block height=10, numtx=30891
+2018/06/10 09:48:41.792609 [0;33m[WARN ][m GID 1095607, vbft actor receives block complete event. block height=11, numtx=36593
+2018/06/10 09:48:48.669747 [0;33m[WARN ][m GID 1269533, vbft actor receives block complete event. block height=12, numtx=39768
+2018/06/10 09:48:55.648056 [0;33m[WARN ][m GID 1452600, vbft actor receives block complete event. block height=13, numtx=41161
+2018/06/10 09:49:03.385120 [0;33m[WARN ][m GID 1646169, vbft actor receives block complete event. block height=14, numtx=43718
+2018/06/10 09:49:11.259886 [0;33m[WARN ][m GID 1857685, vbft actor receives block complete event. block height=15, numtx=45621
+2018/06/10 09:49:19.149051 [0;33m[WARN ][m GID 2056367, vbft actor receives block complete event. block height=16, numtx=47084
+2018/06/10 09:49:27.513701 [0;33m[WARN ][m GID 2275678, vbft actor receives block complete event. block height=17, numtx=48656
+2018/06/10 09:49:35.913447 [0;33m[WARN ][m GID 2495451, vbft actor receives block complete event. block height=18, numtx=48778
+2018/06/10 09:49:44.081030 [0;33m[WARN ][m GID 2691866, vbft actor receives block complete event. block height=19, numtx=49299
+2018/06/10 09:49:55.011252 [0;33m[WARN ][m GID 2976875, vbft actor receives block complete event. block height=20, numtx=57902
+2018/06/10 09:50:05.457429 [0;33m[WARN ][m GID 3248776, vbft actor receives block complete event. block height=21, numtx=60794
+2018/06/10 09:50:15.224281 [0;33m[WARN ][m GID 3485640, vbft actor receives block complete event. block height=22, numtx=59927
+2018/06/10 09:50:25.062192 [0;33m[WARN ][m GID 3736184, vbft actor receives block complete event. block height=23, numtx=47937
+2018/06/10 09:50:37.128825 [0;33m[WARN ][m GID 4052950, vbft actor receives block complete event. block height=24, numtx=70027
+2018/06/10 09:50:48.095621 [0;33m[WARN ][m GID 4329024, vbft actor receives block complete event. block height=25, numtx=70968
+2018/06/10 09:50:59.846264 [0;33m[WARN ][m GID 4632254, vbft actor receives block complete event. block height=26, numtx=69064
+2018/06/10 09:51:11.660534 [0;33m[WARN ][m GID 4932480, vbft actor receives block complete event. block height=27, numtx=71635
+2018/06/10 09:51:23.479395 [0;33m[WARN ][m GID 5235912, vbft actor receives block complete event. block height=28, numtx=71611
+2018/06/10 09:51:34.856738 [0;33m[WARN ][m GID 5508747, vbft actor receives block complete event. block height=29, numtx=67764
+2018/06/10 09:51:47.755924 [0;33m[WARN ][m GID 5844259, vbft actor receives block complete event. block height=30, numtx=71317
+2018/06/10 09:51:59.308871 [0;33m[WARN ][m GID 6120604, vbft actor receives block complete event. block height=31, numtx=74741
+2018/06/10 09:52:11.033717 [0;33m[WARN ][m GID 6426049, vbft actor receives block complete event. block height=32, numtx=70801
+2018/06/10 09:52:23.792137 [0;33m[WARN ][m GID 6765435, vbft actor receives block complete event. block height=33, numtx=74519
+2018/06/10 09:52:37.010993 [0;33m[WARN ][m GID 7098719, vbft actor receives block complete event. block height=34, numtx=74024
+2018/06/10 09:52:49.369623 [0;33m[WARN ][m GID 7396878, vbft actor receives block complete event. block height=35, numtx=76979
+2018/06/10 09:53:01.611356 [0;33m[WARN ][m GID 7672814, vbft actor receives block complete event. block height=36, numtx=76575
+2018/06/10 09:53:13.447058 [0;33m[WARN ][m GID 7955340, vbft actor receives block complete event. block height=37, numtx=72900
+2018/06/10 09:53:25.270380 [0;33m[WARN ][m GID 8245756, vbft actor receives block complete event. block height=38, numtx=72780
+2018/06/10 09:53:38.296914 [0;33m[WARN ][m GID 8547373, vbft actor receives block complete event. block height=39, numtx=70501
+2018/06/10 09:53:50.646294 [0;33m[WARN ][m GID 8845695, vbft actor receives block complete event. block height=40, numtx=78254
+2018/06/10 09:54:03.159994 [0;33m[WARN ][m GID 9130191, vbft actor receives block complete event. block height=41, numtx=74702
+2018/06/10 09:54:16.236645 [0;33m[WARN ][m GID 9438359, vbft actor receives block complete event. block height=42, numtx=74272
+2018/06/10 09:54:28.440134 [0;33m[WARN ][m GID 9723988, vbft actor receives block complete event. block height=43, numtx=77254
+2018/06/10 09:54:41.397108 [0;33m[WARN ][m GID 10026794, vbft actor receives block complete event. block height=44, numtx=77337
+2018/06/10 09:54:54.840603 [0;33m[WARN ][m GID 10326973, vbft actor receives block complete event. block height=45, numtx=76698
+2018/06/10 09:55:07.474155 [0;33m[WARN ][m GID 10618583, vbft actor receives block complete event. block height=46, numtx=75070
+2018/06/10 09:55:22.057667 [0;33m[WARN ][m GID 10948235, vbft actor receives block complete event. block height=47, numtx=84266
+2018/06/10 09:55:38.707830 [0;33m[WARN ][m GID 11324325, vbft actor receives block complete event. block height=48, numtx=87832
+2018/06/10 09:55:52.576422 [0;33m[WARN ][m GID 11625595, vbft actor receives block complete event. block height=49, numtx=90065
+2018/06/10 09:56:08.419038 [0;33m[WARN ][m GID 11997292, vbft actor receives block complete event. block height=50, numtx=91352
+2018/06/10 09:56:22.970390 [0;33m[WARN ][m GID 12212115, vbft actor receives block complete event. block height=51, numtx=94231
+2018/06/10 09:56:24.039053 [0;31m[ERROR][m GID 12197483, server 7 verify proposal blk from 7 failed, blk 51, txs 120000, err: duplicated transaction detected
+2018/06/10 09:56:29.546071 [0;31m[ERROR][m GID 12221428, server 7 verify proposal blk from 4 failed, blk 52, txs 56955, err: duplicated transaction detected
+2018/06/10 09:56:33.085948 [0;33m[WARN ][m GID 12246749, vbft actor receives block complete event. block height=52, numtx=56955
+2018/06/10 09:57:16.467531 [0;33m[WARN ][m GID 12267613, vbft actor receives block complete event. block height=53, numtx=0
