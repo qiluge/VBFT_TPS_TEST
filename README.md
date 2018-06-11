@@ -18,8 +18,8 @@ main.go|generate transaction data
 4. cp Test.jmx, run.sh to jmeter-install-path/bin/
 5. modify Test.jmx server attribute, set ip to yourself ontology ip
 6. copy a bookkeeper's wallet.dat to jmeter-install-path/bin/, named wallet-admin.dat
-7. generate a new wallet.dat, copy it to jmeter-install-path/bin/, named wallet-account.dat, record its address
-8. modify main.go line 37, used address in step 9 replace the address in main.go
+7. generate a new wallet.dat, copy it to jmeter-install-path/bin/, named wallet-account.dat, record its’ address
+8. modify main.go line 37, used address in step 7 replace the address in main.go
 9. go build -o gen-transfer main.go, copy generated file 'gen-transfer' to jmeter-install-path/bin/
 10. start ontology vbft network
 11. in jmeter-install-path/bin/, execute './run.sh 30'
