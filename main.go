@@ -22,7 +22,7 @@ func main() {
 		fmt.Println("get admin err:", err)
 	}
 	wallet, _ = account.Open("wallet-account.dat")
-	toAcc, err := wallet.GetAccountByAddress("TA5SpWVGtvQbqnB2DMoV2woBq31mixCSFv", []byte("passwordtest"))
+	toAcc, err := wallet.GetAccountByAddress("AKW6CF4UWm5NLY9PQKkqpwMQDSNp6aKA16", []byte("passwordtest"))
 	if err != nil {
 		fmt.Println("get account err:", err)
 	}
@@ -30,8 +30,8 @@ func main() {
 	rpcClient := sdk.Rpc
 	txNum, _ := strconv.Atoi(os.Args[1])
 	txNum = txNum * 100000
-	if txNum > 2^32 {
-		txNum = 2 ^ 32
+	if txNum > 2<<32 {
+		txNum = 2 << 32
 	}
 	for j := 0; j < txNum; j++ {
 		txHash, txContent := genTransfer(admin, toAcc, 1, rpcClient, uint32(j))
@@ -40,12 +40,12 @@ func main() {
 }
 
 func genTransfer(from, to *account.Account, value uint64, rpc *rpc.RpcClient, nonce uint32) (string, string) {
-	tx, err := rpc.NewTransferTransaction(0, 0, "ont", from.Address, to.Address, value)
+	tx, err := rpc.NewTransferTransaction(0, 10000, "ont", from.Address, to.Address, value)
 	if err != nil {
 		return "", ""
 	}
 	tx.Nonce = nonce
-	err = rpc.SignTransaction(tx, from)
+	err = rpc.SignToTransaction(tx, from)
 	if err != nil {
 		return "", ""
 	}
