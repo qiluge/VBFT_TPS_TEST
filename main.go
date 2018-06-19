@@ -40,7 +40,7 @@ func main() {
 }
 
 func genTransfer(from, to *account.Account, value uint64, rpc *rpc.RpcClient, nonce uint32) (string, string) {
-	tx, err := rpc.NewTransferTransaction(0, 10000, "ont", from.Address, to.Address, value)
+	tx, err := rpc.NewTransferTransaction(0, 100000, "ont", from.Address, to.Address, value)
 	if err != nil {
 		return "", ""
 	}
