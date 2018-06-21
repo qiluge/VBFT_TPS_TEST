@@ -22,7 +22,7 @@ func main() {
 		fmt.Println("get admin err:", err)
 	}
 	wallet, _ = account.Open("wallet-account.dat")
-	toAcc, err := wallet.GetAccountByAddress("AKW6CF4UWm5NLY9PQKkqpwMQDSNp6aKA16", []byte("passwordtest"))
+	toAcc, err := wallet.GetAccountByAddress("AdTgdGPjahJjubZU19AwBu9F3oE4hncx4u", []byte("passwordtest"))
 	if err != nil {
 		fmt.Println("get account err:", err)
 	}
@@ -58,3 +58,4 @@ func genTransfer(from, to *account.Account, value uint64, rpc *rpc.RpcClient, no
 	hash := tx.Hash()
 	return hash.ToHexString(), common.ToHexString(txbf.Bytes())
 }
+
