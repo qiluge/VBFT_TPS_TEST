@@ -12,6 +12,8 @@ import (
 	"strconv"
 )
 
+const ROUTING_NUM = 10
+
 func main() {
 	defer os.RemoveAll("./Log")
 
@@ -33,9 +35,20 @@ func main() {
 	if txNum > 2<<32 {
 		txNum = 2 << 32
 	}
-	for j := 0; j < txNum; j++ {
-		txHash, txContent := genTransfer(admin, toAcc, 1, rpcClient, uint32(j))
-		fmt.Print(txHash, ",", txContent, "\n")
+	exitChan := make(chan int)
+	txNumPerRoutine := txNum / ROUTING_NUM
+	for i := 0; i < ROUTING_NUM; i++ {
+		go func(nonce uint32, routineIndex int) {
+			for j := 0; j < txNumPerRoutine; j++ {
+				txHash, txContent := genTransfer(admin, toAcc, 1, rpcClient, nonce)
+				nonce++
+				fmt.Print(txHash, ",", txContent, "\n")
+			}
+			exitChan <- 1
+		}(uint32(txNumPerRoutine*i), i)
+	}
+	for i := 0; i < ROUTING_NUM; i++ {
+		<-exitChan
 	}
 }
 
