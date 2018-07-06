@@ -1,5 +1,7 @@
 gen-transfer
 Log
-wallet-account.dat
-wallet-admin.dat
+#wallet-account.dat
+#wallet-admin.dat
 transfer.txt
+transfer-from-init-addr/log/test.log
+*.dat
